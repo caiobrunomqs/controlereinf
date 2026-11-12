@@ -1,0 +1,18 @@
+# Ambiente
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+
+# Dados: nunca versionar bancos, planilhas de clientes ou backups
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+data/
+data/input/
+backups/
+
+# Ferramentas locais
+.claude/settings.local.json
